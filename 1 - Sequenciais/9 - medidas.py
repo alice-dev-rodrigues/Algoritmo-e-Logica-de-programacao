@@ -1,0 +1,6 @@
+a = float(input('Medida A: '))
+b = float(input('Medida B: '))
+c = float(input('Medida C: '))
+print(f'AREA DO QUADRADO = {a ** 2:.4f}')
+print(f'AREA DO TRIANGULO = {(a * b) / 2:.4f}')
+print(f'AREA DO TRAPEZIO = {((a + b) * c) / 2:.4f}')

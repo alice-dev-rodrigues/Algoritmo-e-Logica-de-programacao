@@ -1,0 +1,14 @@
+n = int(input('Quantos numeros voce vai digitar? '))
+maior = posmaior = 0
+vetor = [0 for i in range(n)]
+for i in range(0, n):
+    vetor[i] = int(input('Digite um valor: '))
+    if i == 0:
+        maior = vetor[0]
+    if vetor[i] > maior:
+        maior = vetor[i]
+        posmaior = i
+
+print(f'MAIOR VALOR = {maior}')
+print(f'POSICAO DO MAIOR VALOR = {posmaior + 1}')
+    
